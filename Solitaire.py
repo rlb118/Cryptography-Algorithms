@@ -17,12 +17,5 @@ def NumberToLetter(number):
     return letter
     
 class Solitaire:
-    def _defaultDeck(cardSet):
-        #Default Deck Order for when you lack a key
         
-        cardSet.deck = []
-        for cardNum in range(1, 55):
-            cardSet.deck = cardSet.deck + [cardNum]
-    
-    def _KeyDeck(cardSet, key):
-        #Change order based on key
+        
